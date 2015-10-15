@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EDD8207D1BCF1F3500830C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8207C1BCF1F3500830C92 /* AppDelegate.swift */; };
-		EDD8207F1BCF1F3500830C92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8207E1BCF1F3500830C92 /* ViewController.swift */; };
+		EDD8207F1BCF1F3500830C92 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8207E1BCF1F3500830C92 /* MyViewController.swift */; };
 		EDD820821BCF1F3500830C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD820801BCF1F3500830C92 /* Main.storyboard */; };
 		EDD820841BCF1F3500830C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD820831BCF1F3500830C92 /* Assets.xcassets */; };
 		EDD820871BCF1F3500830C92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD820851BCF1F3500830C92 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		EDD820791BCF1F3500830C92 /* tipsterswift2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipsterswift2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD8207C1BCF1F3500830C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDD8207E1BCF1F3500830C92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDD8207E1BCF1F3500830C92 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		EDD820811BCF1F3500830C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDD820831BCF1F3500830C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDD820861BCF1F3500830C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				EDD8207C1BCF1F3500830C92 /* AppDelegate.swift */,
-				EDD8207E1BCF1F3500830C92 /* ViewController.swift */,
+				EDD8207E1BCF1F3500830C92 /* MyViewController.swift */,
 				EDD820801BCF1F3500830C92 /* Main.storyboard */,
 				EDD820831BCF1F3500830C92 /* Assets.xcassets */,
 				EDD820851BCF1F3500830C92 /* LaunchScreen.storyboard */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD8207F1BCF1F3500830C92 /* ViewController.swift in Sources */,
+				EDD8207F1BCF1F3500830C92 /* MyViewController.swift in Sources */,
 				EDD8207D1BCF1F3500830C92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +484,7 @@
 				EDD820A31BCF1F3600830C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDD820A41BCF1F3600830C92 /* Build configuration list for PBXNativeTarget "tipsterswift2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				EDD820A61BCF1F3600830C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDD820A71BCF1F3600830C92 /* Build configuration list for PBXNativeTarget "tipsterswift2.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				EDD820A91BCF1F3600830C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
